@@ -161,8 +161,8 @@ class Blockchain {
 
       if (!theBlock) {
         reject(new Error("Block not found with the given hash: " + hash));
-        resolve(theBlock);
-      }
+         }
+  resolve(theBlock);
     });
   }
 
